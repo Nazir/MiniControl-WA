@@ -1,0 +1,35 @@
+###> Nazir WP ###
+*.log
+*.gitignore.*
+.vscode
+###< Nazir WP ###
+
+###> minisytem ###
+/public/css/
+/public/favicon.ico
+/public/files/*
+/public/fonts/*
+/public/images/*
+/public/img/*
+/public/js/*
+/public/templates/
+/public/uploads/
+###< minisytem ###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###

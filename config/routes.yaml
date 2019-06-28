@@ -1,0 +1,54 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+###> Nazir WP
+tst:
+    path: /tst
+    defaults: { _controller: 'MiniSystem\MiniCore\TstBundle\Controller\DefaultController::tst' }
+
+# mini_admin:
+#     resource: "@MiniAdminBundle/Controller/"
+#     #resource: "@MiniAdminBundle/Resources/config/routing.yaml"
+#     type:     annotation
+#     prefix:   /
+
+mini_user:
+    #resource: "@MiniUserBundle/Controller/"
+    resource: "@MiniUserBundle/Resources/config/routes.yaml"
+    #type:     annotation
+    prefix:   /
+
+# mini_menu:
+#     resource: "@MiniMenuBundle/Controller/"
+#     type:     annotation
+#     prefix:   /
+
+# mini_banner:
+#     resource: "@MiniBannerBundle/Resources/config/routes.yaml"
+#     prefix:   /
+
+
+mini_common:
+    resource: "@MiniCommonBundle/Resources/config/routes.yaml"
+    prefix:   /
+
+# # Сторонние бандлы
+# #fos_user:
+# #    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+# #hwi_oauth_redirect:
+# #    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
+# #    prefix:   /connect
+# #
+# #hwi_oauth_login:
+# #    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
+# #    prefix:   /oauth_login
+
+# # Опять свои
+# mini_content:
+#     resource: "@MiniContentBundle/Controller/"
+#     #resource: "@MiniContentBundle/Resources/config/routes.yaml"
+#     type:     annotation
+#     prefix:   /
+###< Nazir WP

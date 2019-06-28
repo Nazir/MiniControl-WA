@@ -1,0 +1,28 @@
+###> Nazir WP
+parameters:
+    locale: ru
+    web_path: "%kernel.root_dir%/../public/"
+    web_dir: "%kernel.root_dir%/../public"
+
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    ###> Nazir WP
+    globals:
+        locale: "%locale%"
+        web_path: "%web_path%"
+        web_dir: "%web_dir%"
+
+        mini_core_db: "@mini.core.db"
+        mini_core_helper: "@mini.core.helper"
+        mini_core_config: "@mini.core.config"
+        mini_core_reference: "@mini.core.reference"
+        # #utilsimage: "@utils.image"
+    ###< Nazir WP
+
+###> Nazir WP
+# imports:
+    # - { resource: '@MiniCommonBundle/Resources/config/twig.yaml' }
+    # # resource: '@MiniCommonBundle/Resources/config/twig.yaml'
+###< Nazir WP
