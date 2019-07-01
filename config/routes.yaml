@@ -19,36 +19,58 @@ mini_user:
     #type:     annotation
     prefix:   /
 
-# mini_menu:
-#     resource: "@MiniMenuBundle/Controller/"
-#     type:     annotation
+mini_menu:
+    resource: "@MiniMenuBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+mini_banner:
+    resource: "@MiniBannerBundle/Resources/config/routes.yaml"
+    prefix:   /
+
+mini_social:
+    resource: "@MiniSocialBundle/Resources/config/routes.yaml"
+    prefix:   /
+
+# mini_calc:
+#     resource: "@MiniCalcBundle/Resources/config/routes.yaml"
 #     prefix:   /
 
-# mini_banner:
-#     resource: "@MiniBannerBundle/Resources/config/routes.yaml"
+# mini_bank:
+#     resource: "@MiniBankBundle/Resources/config/routes.yaml"
 #     prefix:   /
-
 
 mini_common:
     resource: "@MiniCommonBundle/Resources/config/routes.yaml"
     prefix:   /
 
-# # Сторонние бандлы
-# #fos_user:
-# #    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+# Сторонние бандлы
+#fos_user:
+#    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 
-# #hwi_oauth_redirect:
-# #    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
-# #    prefix:   /connect
-# #
-# #hwi_oauth_login:
-# #    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
-# #    prefix:   /oauth_login
+#hwi_oauth_redirect:
+#    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
+#    prefix:   /connect
+#
+#hwi_oauth_login:
+#    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
+#    prefix:   /oauth_login
 
-# # Опять свои
-# mini_content:
-#     resource: "@MiniContentBundle/Controller/"
-#     #resource: "@MiniContentBundle/Resources/config/routes.yaml"
+# Опять свои
+# mini_trade:
+#     resource: "@MiniTradeBundle/Controller/"
+#     #resource: "@MiniTradeBundle/Resources/config/routes.yaml"
 #     type:     annotation
 #     prefix:   /
+# mini_trade_dev:
+#     resource: "@MiniTradeDevBundle/Controller/"
+#     #resource: "@MiniTradeDevBundle/Resources/config/routes.yaml"
+#     type:     annotation
+#     prefix:   /
+
+mini_content:
+    resource: "@MiniContentBundle/Controller/"
+    #resource: "@MiniContentBundle/Resources/config/routes.yaml"
+    type:     annotation
+    prefix:   /
 ###< Nazir WP
