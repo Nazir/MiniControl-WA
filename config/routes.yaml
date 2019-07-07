@@ -3,9 +3,9 @@
 #    controller: App\Controller\DefaultController::index
 
 ###> Nazir WP
-tst:
-    path: /tst
-    defaults: { _controller: 'MiniSystem\MiniCore\TstBundle\Controller\DefaultController::tst' }
+# tst:
+#     path: /tst
+#     defaults: { _controller: 'MiniSystem\MiniCore\TstBundle\Controller\DefaultController::tst' }
 
 # mini_admin:
 #     resource: "@MiniAdminBundle/Controller/"
@@ -13,24 +13,30 @@ tst:
 #     type:     annotation
 #     prefix:   /
 
-mini_user:
-    #resource: "@MiniUserBundle/Controller/"
-    resource: "@MiniUserBundle/Resources/config/routes.yaml"
-    #type:     annotation
-    prefix:   /
-
-mini_menu:
-    resource: "@MiniMenuBundle/Controller/"
+mini_control:
+    resource: "@MiniControlBundle/Controller/"
+    #resource: "@MiniControlBundle/Resources/config/routes.yaml"
     type:     annotation
     prefix:   /
 
-mini_banner:
-    resource: "@MiniBannerBundle/Resources/config/routes.yaml"
-    prefix:   /
+# mini_user:
+#     #resource: "@MiniUserBundle/Controller/"
+#     resource: "@MiniUserBundle/Resources/config/routes.yaml"
+#     #type:     annotation
+#     prefix:   /
 
-mini_social:
-    resource: "@MiniSocialBundle/Resources/config/routes.yaml"
-    prefix:   /
+# mini_menu:
+#     resource: "@MiniMenuBundle/Controller/"
+#     type:     annotation
+#     prefix:   /
+
+# mini_banner:
+#     resource: "@MiniBannerBundle/Resources/config/routes.yaml"
+#     prefix:   /
+
+# mini_social:
+#     resource: "@MiniSocialBundle/Resources/config/routes.yaml"
+#     prefix:   /
 
 # mini_calc:
 #     resource: "@MiniCalcBundle/Resources/config/routes.yaml"
@@ -68,9 +74,9 @@ mini_common:
 #     type:     annotation
 #     prefix:   /
 
-mini_content:
-    resource: "@MiniContentBundle/Controller/"
-    #resource: "@MiniContentBundle/Resources/config/routes.yaml"
-    type:     annotation
-    prefix:   /
+# mini_content:
+#     resource: "@MiniContentBundle/Controller/"
+#     #resource: "@MiniContentBundle/Resources/config/routes.yaml"
+#     type:     annotation
+#     prefix:   /
 ###< Nazir WP
