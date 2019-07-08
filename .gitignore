@@ -5,15 +5,8 @@
 ###< Nazir WP ###
 
 ###> minisytem ###
-/public/css/
-/public/favicon.ico
 /public/files/*
-/public/fonts/*
-/public/images/*
-/public/img/*
-/public/js/*
-/public/templates/
-/public/uploads/
+/public/uploads/*
 ###< minisytem ###
 
 ###> symfony/framework-bundle ###

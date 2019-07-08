@@ -1,0 +1,99 @@
+input[type="text"]
+{
+    border: 1px solid #324a5f;
+    color: #0b2b5c;
+    width: 90%;
+}
+input[type="password"]
+{
+    border: 1px solid #324a5f;
+    color: #0b2b5c;
+    width: 90%;    
+}
+input[type="file"]
+{
+    border: 1px solid #324a5f;
+    color: #0b2b5c;
+}
+input[type="checkbox"]
+{
+    color: #0b2b5c;
+    border: 1px solid #0b2b5c;
+    background-color: #d8dfea;
+}
+input[type="button"]
+{
+    color: #d8dfea;
+    border-top: 1px solid #324a5f;
+    border-bottom: 1px solid #0b2b5c;
+    border-left: 1px solid #344e63;
+    border-right: 1px solid #0b2b5c;
+    background-color: #2d4c72;
+}
+input[type="submit"]
+{
+    color: #d8dfea;
+    background-color: #2d4c72;
+    border-top: 1px solid #324a5f;
+    border-bottom: 2px solid black;
+    border-left: 1px solid #344e63;
+    border-right: 2px solid black;
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 0.6em;
+    padding: 0.6em;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    text-align: center;
+    font-weight: bold;
+}
+input[type="reset"]
+{
+    color: #d8dfea;
+    border-top: 1px solid #324a5f;
+    border-bottom: 1px solid #0b2b5c;
+    border-left: 1px solid #344e63;
+    border-right: 1px solid #0b2b5c;
+    background-color: #2d4c72;
+}
+
+.search {
+    width: 160px; /* Ширина поля с кнопкой */
+    border: 1px solid #03457a; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+    margin: 10px;
+}
+
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 134px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+}
+
+input.searchbutton{
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../img/find.png) no-repeat 50% 50%; /* Параметры фона */
+    vertical-align:-5px;
+    padding-right:2px;
+    cursor: pointer;
+}
+
+input.date{
+    width: 11ex; /* Ширина кнопки */
+    height: 1.2em; /* Высота кнопки */
+    text-align: center;
+}
+
+textarea {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+select {
+    border: 1px solid #CCCCCC;
+}

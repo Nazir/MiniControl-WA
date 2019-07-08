@@ -1,0 +1,103 @@
+BODY {
+    width: 80%;
+    min-width: 870px;
+    height: auto;
+    min-height: 200%;
+    /*height: 100%;*/
+    margin: auto;
+    /*padding-left: 20%;*/
+    /*padding-right: 20%;*/
+    max-width: 1900px;
+    /*background-color: #f0f0f0;*/
+    background-color: #26afff;
+    /*background: #26afff; /* Для старых браузров */
+    /*background: #26afff; /* Для старых браузров */
+    /*background: linear-gradient(#26afff 80%, transparent 110%);*/
+    /*background-color: #022330;*/
+    /*background-image: url('../img/body_bg.jpg');*/
+    /*background-repeat: repeat-x;*/	
+}
+
+#header { 
+    height: 80px; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 23px;
+    font-weight: bold; 
+    color: black;
+    /*background-image: url('../img/header_fill.png');*/
+    background-color: white;
+    border: 0; 
+    border-bottom: 1px solid #f0f0f0; 
+    /*background-repeat: repeat-x;*/	
+    /*opacity: 0.3;  */
+}
+
+#fill {
+    background-color: white;
+    /*border: 2px solid red;*/
+    /*border-radius: 20px 20px 20px 20px;*/
+}
+
+#print {
+    background-color: white;
+    padding: 1em; 
+}
+
+#left {
+    clear: both;
+    width: 200px;
+    float: left;
+    background-color: white;
+}
+
+section {
+    background-color: white;
+}
+
+#content { 
+    min-height: 680px;
+    /*height: 100%;*/
+    margin: 0; 
+    padding: 0; 
+    margin-left: 200px;
+    margin-bottom: 0px;
+    padding: 1em;
+    background-color: white;
+    border: 0; 
+    border-left: 1px solid #f0f0f0; 
+    /*opacity: 0.9;  */
+    /*filter: alpha(Opacity=90);  Прозрачность в IE */
+}
+#content h1{ 
+    padding-bottom: 3px;
+}
+#content p { 
+    text-indent: 1em;
+    text-align: justify; 
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+footer {
+    /*background-color: white;*/
+}
+
+#footer {
+    /*color: black;*/
+    /*color: #f0f0f0;*/
+    /*background-color: #022330;*/
+    /*background-image: url('../img/footer_fill.png');*/
+    /*background-repeat: repeat-x;*/	
+    border: 0;
+    /*border-top: 1px solid #f0f0f0;*/
+    /*border-bottom: 1px solid #f0f0f0;*/
+    text-align : center;
+    font-size: 9pt;
+    margin: 0; 
+    padding: 1em; 
+}
+#footer A {
+    color: #f0f0f0;
+    text-decoration : none;
+}

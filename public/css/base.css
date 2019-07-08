@@ -1,0 +1,24 @@
+section, article, aside, footer, header, nav, hgroup {
+  display:block;
+}
+
+html {
+    /*overflow-y: scroll;*/
+    /*height: 100%;*/
+}
+body {
+    font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,Sans-Serif,Tahoma;	
+    /*font-family: Tahoma, Verdana, Arial, Sans-Serif, Lucida Sans;*/
+    /*font-size: 11pt;*/
+    /*color : #03457a;*/
+    background-color : white;
+    color: #333;
+    margin : 0px;
+    padding : 0px;
+    /*line-height: 19px;*/
+    line-height: 1.4em; 
+    font-size: 0.87em; 
+    min-height: 100%;
+}
+/*
+* html body { height: 100% }*/ /*Для IE, т.к. он не поддерживает min-height*/ 

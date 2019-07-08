@@ -1,0 +1,190 @@
+table
+{
+  border-spacing: 0;
+  border: 1px solid #00447c;
+  background-color: white;
+  text-align: center;
+  max-width: 90%;
+}
+THEAD TR TD {
+  color: #00447c;
+  background-color: #F0F0F0;
+  border: 1px solid #00447c;
+  font-weight: bold;
+}
+THEAD TR TD.head {
+  color: black;
+  background-color: #F0F0F0;
+  border: 0px solid #00447c;
+  border-bottom: 1px solid #00447c;
+  padding-left: 1em;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+TBODY TR TD {
+  border: 1px solid #00447c;
+}
+/*A:hover A:active A:focus*/
+TBODY TR TD A  {
+  text-decoration: none;
+}
+THEAD TR TD A  {
+  color: #00447c;
+  font-weight: bold;
+}
+TFOOT TR TD  {
+  border: 1px solid #00447c;
+  color: #00447c;
+  font-weight: bold;
+  background-color: #F0F0F0;
+}
+TBODY TR TD SMALL {
+  color: gray;
+}
+TBODY TR TD SMALL SUP {
+  color: gray;
+  text-decoration: underline;
+}
+TBODY TR TD INPUT.edit {
+  border: 1px solid maroon;
+  text-align: right;
+  width: 3em;
+  background-color: #F0F0F0;
+}
+TBODY TR TD INPUT.checkbox {
+
+}
+TBODY TR TD TEXTAREA {
+  border: 1px solid maroon;
+  text-align: left;
+  width: 40em;
+  height: 3em;
+  background-color: #F0F0F0;
+}
+THEAD TR TD.max {
+  color: #F0F0F0;
+  background-color: orange;
+  border: 1px solid #F0F0F0;
+}
+TBODY TR TD.cb_rf {
+  color: #00447c;
+  background-color: #F0F0F0;
+  border: 1px solid #00447c;
+  padding: 0;
+}
+TBODY TR TD.cb_rf SMALL {
+  color: #00447c;
+}
+/* ^#def_tbl */
+
+td.links_banner {
+    width : 100px;
+    text-align : center;
+    background : white;
+    padding : 10px;
+    padding-right : 10px;
+    border : 1px dotted #0b2b5c;
+    cursor : pointer;
+    vertical-align : middle;
+}
+
+td.links_banner a {
+    width : 100px;
+    height : 100px;
+    text-align : center;
+    background : white;
+    border : 0;
+    cursor : pointer;
+    vertical-align : middle;
+}
+
+td.links_banner a img {
+    text-align : center;
+    background : white;
+    border : 1px dotted #0b2b5c;
+    cursor : pointer;
+    vertical-align : middle;
+}
+
+td.links_info {
+    padding : 10px;
+    text-align : justify;
+    border : 1px solid #0b2b5c;
+}
+td.warning {
+    background : yellow;
+}
+/* #clear_tbl */
+#clear_tbl
+{
+    border-spacing: 0;
+    border: 0;
+    text-align: left;
+}
+#clear_tbl tr td {
+    border: 0;
+}
+/* ^#clear_tbl */
+
+/* #def_tbl */
+#def_tbl {
+  border: 1px solid #00447c;
+  padding: 0;
+}
+#def_tbl thead tr td {
+  color: #00447c;
+  background-color: #F0F0F0;
+  border: 1px solid #00447c;
+}
+#def_tbl thead tr td.head {
+  color: black;
+  background-color: #F0F0F0;
+  border: 0px solid #00447c;
+  border-bottom: 1px solid #00447c;
+}
+#def_tbl tbody tr td {
+  border: 1px solid #00447c;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+/*A:hover A:active A:focus*/
+#def_tbl tbody tr td a  {
+  text-decoration: none;
+}
+#def_tbl thead tr td a  {
+  text-decoration: none;
+  color: #00447c;
+}
+#def_tbl tbody tr td small {
+  color: gray;
+}
+#def_tbl tbody tr td input {
+  border: 1px solid maroon;
+  text-align: right;
+  width: 3em;
+  background-color: #F0F0F0;
+}
+#def_tbl tbody tr td.clear {
+  color: #00447c;
+  background-color: white;
+  padding: 0;
+}
+
+#def_tbl tbody tr th {
+  color: #00447c;
+  background-color: #F0F0F0;
+  border: 1px solid #00447c;
+  text-align: left;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/* ^#def_tbl */
+
+table.yaform__search
+{
+	border: 0;
+}
