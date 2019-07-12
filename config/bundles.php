@@ -13,8 +13,8 @@ return [
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true, 'test' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
-    MiniSystem\MiniCore\MiniCommonBundle\MiniCommonBundle::class => ['all' => true],
-    MiniSystem\MiniCore\MiniUserBundle\MiniUserBundle::class => ['all' => true],
-    MiniSystem\MiniCore\MiniControlBundle\MiniControlBundle::class => ['all' => true],
-    MiniSystem\MiniCore\MiniContentBundle\MiniContentBundle::class => ['all' => true],
+    Mini\Core\CommonBundle\CommonBundle::class => ['all' => true],
+    Mini\Core\UserBundle\UserBundle::class => ['all' => true],
+    Mini\Core\ControlBundle\ControlBundle::class => ['all' => true],
+    Mini\Core\ContentBundle\ContentBundle::class => ['all' => true],
 ];

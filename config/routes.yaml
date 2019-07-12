@@ -8,46 +8,46 @@
 #     defaults: { _controller: 'MiniSystem\MiniCore\TstBundle\Controller\DefaultController::tst' }
 
 # mini_admin:
-#     resource: "@MiniAdminBundle/Controller/"
-#     #resource: "@MiniAdminBundle/Resources/config/routing.yaml"
+#     resource: "@AdminBundle/Controller/"
+#     #resource: "@AdminBundle/Resources/config/routing.yaml"
 #     type:     annotation
 #     prefix:   /
 
 mini_control:
-    resource: "@MiniControlBundle/Controller/"
-    #resource: "@MiniControlBundle/Resources/config/routes.yaml"
+    resource: "@ControlBundle/Controller/"
+    #resource: "@ControlBundle/Resources/config/routes.yaml"
     type:     annotation
     prefix:   /
 
 # mini_user:
-#     #resource: "@MiniUserBundle/Controller/"
-#     resource: "@MiniUserBundle/Resources/config/routes.yaml"
+#     #resource: "@UserBundle/Controller/"
+#     resource: "@UserBundle/Resources/config/routes.yaml"
 #     #type:     annotation
 #     prefix:   /
 
 # mini_menu:
-#     resource: "@MiniMenuBundle/Controller/"
+#     resource: "@MenuBundle/Controller/"
 #     type:     annotation
 #     prefix:   /
 
 # mini_banner:
-#     resource: "@MiniBannerBundle/Resources/config/routes.yaml"
+#     resource: "@BannerBundle/Resources/config/routes.yaml"
 #     prefix:   /
 
 # mini_social:
-#     resource: "@MiniSocialBundle/Resources/config/routes.yaml"
+#     resource: "@SocialBundle/Resources/config/routes.yaml"
 #     prefix:   /
 
 # mini_calc:
-#     resource: "@MiniCalcBundle/Resources/config/routes.yaml"
+#     resource: "@CalcBundle/Resources/config/routes.yaml"
 #     prefix:   /
 
 # mini_bank:
-#     resource: "@MiniBankBundle/Resources/config/routes.yaml"
+#     resource: "@BankBundle/Resources/config/routes.yaml"
 #     prefix:   /
 
 mini_common:
-    resource: "@MiniCommonBundle/Resources/config/routes.yaml"
+    resource: "@CommonBundle/Resources/config/routes.yaml"
     prefix:   /
 
 # Сторонние бандлы
@@ -64,19 +64,19 @@ mini_common:
 
 # Опять свои
 # mini_trade:
-#     resource: "@MiniTradeBundle/Controller/"
-#     #resource: "@MiniTradeBundle/Resources/config/routes.yaml"
+#     resource: "@TradeBundle/Controller/"
+#     #resource: "@TradeBundle/Resources/config/routes.yaml"
 #     type:     annotation
 #     prefix:   /
 # mini_trade_dev:
-#     resource: "@MiniTradeDevBundle/Controller/"
-#     #resource: "@MiniTradeDevBundle/Resources/config/routes.yaml"
+#     resource: "@TradeDevBundle/Controller/"
+#     #resource: "@TradeDevBundle/Resources/config/routes.yaml"
 #     type:     annotation
 #     prefix:   /
 
 # mini_content:
-#     resource: "@MiniContentBundle/Controller/"
-#     #resource: "@MiniContentBundle/Resources/config/routes.yaml"
+#     resource: "@ContentBundle/Controller/"
+#     #resource: "@ContentBundle/Resources/config/routes.yaml"
 #     type:     annotation
 #     prefix:   /
 ###< Nazir WP
