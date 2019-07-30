@@ -23,6 +23,6 @@ twig:
 
 ###> Nazir WP
 # imports:
-    # - { resource: '@MiniCommonBundle/Resources/config/twig.yaml' }
-    # # resource: '@MiniCommonBundle/Resources/config/twig.yaml'
+    # - { resource: '@CommonBundle/Resources/config/twig.yaml' }
+    # # resource: '@CommonBundle/Resources/config/twig.yaml'
 ###< Nazir WP
