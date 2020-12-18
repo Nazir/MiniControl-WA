@@ -4,7 +4,6 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-    # locale: 'en'
     ###> Nazir WP
     locale: 'ru'
     ###< Nazir WP
@@ -14,21 +13,48 @@ services:
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.
         autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
-        public: false       # Allows optimizing the container by removing unused services; this also means
-                            # fetching services directly from the container via $container->get() won't work.
-                            # The best practice is to be explicit about your dependencies anyway.
 
     # makes classes in src/ available to be used as services
     # this creates a service per class whose id is the fully-qualified class name
     App\:
-        resource: '../src/*'
-        exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+            - '../src/Tests/'
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
     App\Controller\:
-        resource: '../src/Controller'
+        resource: '../src/Controller/'
         tags: ['controller.service_arguments']
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+###> Nazir WP
+
+# Mini\Bundle\TstBundle\Controller\:
+#     resource: '../src/Nazir/Bundle/TstBundle/Controller'
+#     public: true
+#     tags: ['controller.service_arguments']
+
+# imports:
+#     - { resource: '@CommonBundle/Resources/config/services.yaml' }
+#     - { resource: '@UtilsBundle/Resources/config/services.yaml' }
+
+#    company_bundle:
+#        resource: @CompanyBundle/Resources/config/services.xml
+#    user_bundle:
+#        resource: @UserBundle/Resources/config/services.xml
+#    utils_bundle:
+#        #resource: @UtilsBundle/Resources/config/services.yml
+#        -  { resource: "@UtilsBundle/Resources/config/services.yml" }
+
+# MiniUser.form.registration:
+#     class: Mini\Bundle\UserBundle\Form\RegistrationType
+#     tags:
+#         - { name: form.type, alias: app_user_registration }
+
+###< Nazir WP
